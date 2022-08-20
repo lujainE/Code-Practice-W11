@@ -1,0 +1,134 @@
+body{
+    background-color: #28293E;
+    font-family: 'DM Sans', sans-serif;
+}
+.container{
+    justify-content: center;
+    justify-items: center;
+}
+.nav{
+    display: flex;
+}
+.nav-title{
+    position: absolute;
+    width: 181px;
+    height: 27px;
+    left: 54px;
+    top: 65px;
+}
+.nav-links{
+    display: flex;
+    align-items:center ;
+    justify-content:flex-end;
+    margin-left: 610px;
+    gap: 30px;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 43px;
+}
+li a{
+    color:#FFF5EE;
+    text-decoration: none;
+    width: 316px;
+    height: 20px;
+}
+
+.nav-links a{ 
+    padding: 0px 10px 0px 10px;
+    line-height: 20px;
+}
+
+.nav ul{
+    list-style-type: none;
+}
+
+.nav-links .btn {
+    width: 136px;
+    height: 55px;
+    gap: 10px;
+    border-radius: 7px;
+    background-color: #FF3366;
+    color: #FFF5EE;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 17.5px 40.5px;
+    border: none;
+    margin-left: 80px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.girl-img{
+    position: absolute;
+    left: 638px;
+    top: 68px;
+    width: 732;
+    height: 732;
+}
+.content1{
+    position: relative;
+    color: #FCFCFF;
+    margin-left: 45px;
+    gap: 24px;
+    padding-top: 37px;
+}
+#content1{
+    position: relative;
+    font-weight: 500;
+    font-size: 82px;
+    line-height: 80px;
+    letter-spacing: -4px;
+    color: #FCFCFF;
+}
+#content2{
+    position: relative;
+    width: 430px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -1px;
+    color: #D5D5D6;
+    margin-top: -60px;
+}
+#send{
+    position: relative;
+    padding-top: 20px;
+}
+.content1 .btn {
+    width: 88px;
+    height: 55px;
+    gap: 10px;
+    border-radius: 7px;
+    background-color: #FF3366;
+    color: #FFF5EE;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+input{
+    width: 250px;
+    height: 55px;
+    border: 1px solid #FCFCFF;
+    border-radius: 7px;
+    background-color: #28293E;
+    color: #D5D5D6;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+::placeholder{
+    position: relative;
+    color: #D5D5D6;
+    padding-left: 40px;
+}
+.Message-img{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 15px;
+}
