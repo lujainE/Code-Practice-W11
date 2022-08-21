@@ -2,10 +2,10 @@ body{
     background-color: #28293E;
     font-family: 'DM Sans', sans-serif;
 }
-.container{
+/**.container{
     justify-content: center;
     justify-items: center;
-}
+}**/
 .nav{
     display: flex;
 }
