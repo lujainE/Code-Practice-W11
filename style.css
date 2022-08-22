@@ -2,10 +2,11 @@ body{
     background-color: #28293E;
     font-family: 'DM Sans', sans-serif;
 }
-/**.container{
+.container-fluid{
     justify-content: center;
     justify-items: center;
-}**/
+    background-color: #28293E;
+}
 .nav{
     display: flex;
 }
@@ -13,18 +14,18 @@ body{
     position: absolute;
     width: 181px;
     height: 27px;
-    left: 54px;
-    top: 65px;
+    left: 4.5%;
+    top: 12%;
 }
 .nav-links{
     display: flex;
     align-items:center ;
     justify-content:flex-end;
-    margin-left: 610px;
     gap: 30px;
     font-size: 20px;
     line-height: 20px;
-    margin-top: 43px;
+    margin-top: 3.5%;
+    margin-left: 49%;
 }
 li a{
     color:#FFF5EE;
@@ -54,23 +55,24 @@ li a{
     align-items: center;
     padding: 17.5px 40.5px;
     border: none;
-    margin-left: 80px;
+    margin-left: 55%;
     font-size: 20px;
     line-height: 20px;
 }
 .girl-img{
     position: absolute;
-    left: 638px;
-    top: 68px;
+    justify-content:center;
+    top: 12%;
+    left: 50.5%;
     width: 732;
     height: 732;
 }
 .content1{
     position: relative;
     color: #FCFCFF;
-    margin-left: 45px;
     gap: 24px;
-    padding-top: 37px;
+    padding-top: 3.5%;
+    margin-left: 3.5%;
 }
 #content1{
     position: relative;
@@ -89,11 +91,10 @@ li a{
     line-height: 30px;
     letter-spacing: -1px;
     color: #D5D5D6;
-    margin-top: -60px;
 }
 #send{
     position: relative;
-    padding-top: 20px;
+    padding-top: 2%;
 }
 .content1 .btn {
     width: 88px;
@@ -109,7 +110,7 @@ li a{
     font-size: 20px;
     line-height: 20px;
     font-weight: 500;
-    margin-left: 10px;
+    margin-left: 0.75%;
 }
 input{
     width: 250px;
@@ -125,10 +126,10 @@ input{
 ::placeholder{
     position: relative;
     color: #D5D5D6;
-    padding-left: 40px;
+    padding-left: 16%;
 }
 .Message-img{
     position: absolute;
-    margin-left: 10px;
-    margin-top: 15px;
+    margin-left: 0.75%;
+    margin-top: 1.2%;
 }
