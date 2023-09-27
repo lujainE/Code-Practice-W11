@@ -11,46 +11,64 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
-    <title>Document</title>
+    <title>tasknote</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="nav">
-            <img class="nav-title" src="./img/logo.png" alt="logo">
-            <ul class="nav-links">
-                <li><a href="#">About</a></li>
-                <li><a href="#" class="active">Services</a></li>
-                <li><a href="#">Product</a></li>
-                <li><button class="btn">Demo</button></li>
-            </ul>
-        </div>   
-        <div class="content">
-            <img class="girl-img" src="./img/img1.svg" alt="Girl">
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class="nav-title" src="./img/logo.png" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav links mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"><button class="btn">Demo</button></a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="content">
+                        <h1>Manage
+                            <br>your personal
+                            <br>and all team task.
+                        </h1>
+                        <p>
+                            Monitoring your personal and all team task
+                            <br>more easily with us.
+                        </p>
+                        <div class="mt-5 pb-3">
+                            <img class="Message-img" src="./img/Message.svg" alt="Message">
+                            <input type="text" id="text" name="lname" placeholder="Email">
+                            <button class="btn">Send</button>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-md-6">
+                        <div>
+                            <img class="girl-img" src="./img/img1.svg" alt="Girl">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="content1">
-            <div>
-                <p id="content1">
-                    Manage
-                    <br>your personal
-                    <br>and all team task.
-                </p>
-            </div>
-            <div>
-                <p id="content2">
-                    Monitoring your personal and all team task
-                    <br>more easily with us.
-                </p>
-            </div>
-            <div id="send">
-                <img class="Message-img" src="./img/Message.svg" alt="Message">
-                <input type="text" id="text" name="lname" placeholder="Email">
-                <button class="btn">Send</button>
-            </div>
-        </div>
-    </div>
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-</body>
-</html>
+    </section>
