@@ -1,122 +1,69 @@
 body{
-    background-color: #28293E;
-    font-family: 'DM Sans', sans-serif;
+    background-color: #28293E !important;
+    font-family: 'DM Sans', sans-serif !important;
+    overflow-x: hidden !important;
+    color: white !important;
 }
-.container-fluid{
-    justify-content: center;
-    justify-items: center;
-    background-color: #28293E;
-    width: 100%;
-    height: 100%;
+.navbar-brand
+{
+    margin-left: 10%;
+    margin-top: 25px;
 }
-.nav{
-    display: flex;
+.navbar-brand img
+{   
+    width: 15%;
 }
-.nav-title{
+.links
+{
     position: absolute;
-    width: 181px;
-    height: 27px;
-    left: 4.5%;
-    top: 12%;
+    right: 0;
+    top: 35px;
+    margin-right: 10%;
 }
-.nav-links{
-    display: flex;
-    align-items:center ;
-    justify-content:flex-end;
-    gap: 30px;
-    font-size: 20px;
-    line-height: 20px;
-    margin-top: 3.5%;
-    margin-left: 49%;
+.links a
+{
+    color: white !important;
+    font-size: 20px !important;
+    line-height: 20px !important;
+    margin-right: 50px !important;
 }
-li a{
-    color:#FFF5EE;
-    text-decoration: none;
-    width: 316px;
-    height: 20px;
-}
-
-.nav-links a{ 
-    padding: 0px 10px 0px 10px;
-    line-height: 20px;
-}
-
-.nav ul{
-    list-style-type: none;
-}
-
-.nav-links .btn {
+.btn {
     width: 136px;
     height: 55px;
-    gap: 10px;
     border-radius: 7px;
-    background-color: #FF3366;
-    color: #FFF5EE;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 17.5px 40.5px;
+    background-color: #FF3366 !important;
+    color: #FFF5EE !important;
     border: none;
-    margin-left: 55%;
-    font-size: 20px;
+    margin-left: 80px;
+    margin-top: -17px;
+    font-size: 20px !important;
     line-height: 20px;
 }
-.girl-img{
-    position: absolute;
-    justify-content:center;
-    top: 12%;
-    left: 50.5%;
-    width: 732;
-    height: 732;
-}
-.content1{
+.content
+{
     position: relative;
-    color: #FCFCFF;
-    gap: 24px;
-    padding-top: 3.5%;
-    margin-left: 3.5%;
+    left: 20%;
+    top: 170px;
 }
-#content1{
-    position: relative;
+.content h1{
     font-weight: 500;
     font-size: 82px;
     line-height: 80px;
     letter-spacing: -4px;
     color: #FCFCFF;
 }
-#content2{
-    position: relative;
-    width: 430px;
-    height: 60px;
+.content p{
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
     letter-spacing: -1px;
     color: #D5D5D6;
+    margin-top: 40px;
 }
-#send{
-    position: relative;
-    padding-top: 2%;
-}
-.content1 .btn {
-    width: 88px;
-    height: 55px;
-    gap: 10px;
-    border-radius: 7px;
-    background-color: #FF3366;
-    color: #FFF5EE;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: 500;
-    margin-left: 0.75%;
-}
-input{
-    width: 250px;
-    height: 55px;
+.content input
+{
+    width: 300px;
+    height: 60px;
     border: 1px solid #FCFCFF;
     border-radius: 7px;
     background-color: #28293E;
@@ -125,13 +72,193 @@ input{
     font-size: 16px;
     line-height: 20px;
 }
-::placeholder{
-    position: relative;
-    color: #D5D5D6;
-    padding-left: 16%;
+.content .btn {
+    width: 88px;
+    height: 60px;
+    gap: 10px;
+    border-radius: 7px;
+    background-color: #FF3366;
+    color: #FFF5EE;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-top: -5px;
 }
 .Message-img{
     position: absolute;
-    margin-left: 0.75%;
-    margin-top: 1.2%;
+    margin-left: 10px;
+    margin-top: 17px;
+}
+::placeholder{
+    position: relative;
+    color: #D5D5D6;
+    padding-left: 40px;
+}
+.girl-img{
+    position: relative;
+    top: 0px;
+    left: 65px;
+    width: 80%;
+}
+/* Tablet Screens */
+@media (max-width:991px) {
+    .navbar-brand img
+    {
+        width: 20%;
+    }
+    .navbar-toggler
+    {
+        position: absolute;
+        right: 0;
+        margin-right: 5%;
+        margin-top: 25px;
+        background-color: #FF3366 !important;
+        color: white !important;
+    }
+    .navbar-brand
+    {
+        margin-left: 5% !important;
+    }
+    .links
+    {
+        position: absolute;
+        right: 5%;
+        top: 100px;
+        margin-right: 0%;
+    }
+    .links a
+    {
+        color: white !important;
+        font-size: 20px !important;
+        line-height: 20px !important;
+        margin-right: 0 !important;
+    }
+    .btn {
+        width: 136px;
+        height: 55px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .content
+    {
+        position: relative;
+        left: 5%;
+        top: 55px;
+    }
+    .content h1{
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: -2px;
+        color: #FCFCFF;
+    }
+    .content p{
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 20px;
+        width: 85%;
+    }
+    .content input
+    {
+        width: 55%;
+        height: 50px;
+    }
+    .content .btn {
+        height:50px;
+        width: 25%;
+        font-size: 17px !important;
+    }
+    .Message-img{
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 12px;
+    }
+    .girl-img{
+        position: relative;
+        top: 50px;
+        left: 0px;
+        width: 100%;
+    }
+}
+/* Mobile Screens */
+@media (max-width:767px) {
+    .navbar-toggler
+    {
+        position: absolute;
+        right: 0;
+        margin-right: 5%;
+        margin-top: 25px;
+        color: #FCFCFF !important;
+    }
+    .navbar-brand
+    {
+        margin-left: 5% !important;
+    }
+    .navbar-brand img
+    {
+        width: 50%;
+    }
+    .links
+    {
+        position: absolute;
+        right: 5%;
+        top: 100px;
+        margin-right: 0%;
+    }
+    .links a
+    {
+        color: white !important;
+        font-size: 20px !important;
+        line-height: 20px !important;
+        margin-right: 0 !important;
+    }
+    .btn {
+        width: 136px;
+        height: 55px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .content
+    {
+        position: relative;
+        left: 5%;
+        top: 55px;
+    }
+    .content h1{
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: -2px;
+        color: #FCFCFF;
+    }
+    .content p{
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 20px;
+        width: 85%;
+    }
+    .content input
+    {
+        width: 55%;
+        height: 50px;
+    }
+    .content .btn {
+        height:50px;
+        width: 25%;
+        font-size: 17px !important;
+    }
+    .Message-img{
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 12px;
+    }
+    .girl-img{
+        position: relative;
+        top: 50px;
+        left: 0px;
+        width: 100%;
+    }
 }
